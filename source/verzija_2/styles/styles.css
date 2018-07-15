@@ -1,0 +1,114 @@
+/* CSS Document */
+
+body{
+	font-family: serif;	
+	font-size: 18px;
+}
+
+div#zaglavlje{
+	float: none;
+	font-size: xx-large;
+	font: Verdana;
+	text-align: middle;
+	height:150px;
+}
+
+div#telo{
+	clear: both;
+	float: none;
+	width: auto;
+	padding-bottom: 20px;
+}
+
+div#sadrzaj{
+	float: left;
+	clear: right;
+	width: 600px;
+	text-align: justify;
+}
+
+div#levi_meni{
+	float: left;
+	width: 280px;
+	margin-right:10px;
+}
+
+div#desni_meni{
+	float: right;
+	width: 280px;
+	margin-left:10px;
+}
+
+div#podnozje{
+	clear: both;
+	margin-top: 20px;
+	width: auto;
+	
+	border-top: 1px solid #5CB3FF;
+	
+	font-size:small;
+	text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: blue;
+}
+
+div#levi_meni ul{
+
+}
+
+div#levi_meni ul li{
+	list-style: none;
+}
+
+a, a:visited{
+	color: #736AFF;
+	text-decoration: none;
+}
+
+a:hover{
+    border-bottom: 1px solid #43C6DB;
+	text-decoration: none;
+}
+
+img{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+	vertical-align: text-bottom;
+}
+
+applet{
+	width: 600px;
+	height: 400px;
+}
+
+input, select{
+	border: 1px solid #6698FF;
+}
+
+form{
+	margin-bottom: 10px;
+}
+
+img{
+	vertical-align: top;
+	height: 21px;
+}
+
+img#cot{
+	height : 480px;
+	width: 640px;
+}
+
+img#logo{
+	vertical-align:middle;
+	height: 146px;
+	width: 201px;
+}
+
+img#trig{
+	height: 40px;
+}

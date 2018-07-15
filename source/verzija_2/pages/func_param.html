@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Osnovne funkcije</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="GeoGebra">
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css" media="all" />
+	<script type="text/javascript" src="../javaScript/script.js"></script>
+</head>
+
+<body BACKGROUND="../images/bgd.jpg">
+
+<div id="zaglavlje">
+	<img id="logo" src="../images/etf_logo.jpg" align = "middle"/>Elektotehni&#269;ki fakultet, Univerzitet u Beogradu
+</div>
+
+<div id="telo">
+	<div id="levi_meni">
+	
+	<h3>Osnovne funkcije</h3>
+	<ul>
+		<li><a href="linearna.html">Linearna</a></li>
+		<li><a href="kvadratna.html">Kvadratna</a></li>
+		<li><a href="polinomska.html">Polinomska</a></li>
+		<li><a href="eksponencijalna.html">Eksponencijalna</a></li>
+		<li><a href="logaritamska.html">Logaritamska</a></li>
+		<li><a href="trig.html">Trigonometrijske</a></li>
+			<ul>
+				<li><a href="sin.html">Sinus</a></li>
+				<li><a href="cos.html">Kosinus</a></li>
+				<li><a href="tan.html">Tangens</a></li>
+				<li><a href="ctg.html">Kotangens</a></li>
+				<li><a href="sec.html">Sekans</a></li>
+				<li><a href="csc.html">Kosekans</a></li>
+				<li><a href="arcsin.html">Arkus sinus</a></li>
+				<li><a href="arccos.html">Arkus kosinus</a></li>
+				<li><a href="arctan.html">Arkus tangens</a></li>
+				<li><a href="arcctg.html">Arkus kotangens</a></li>
+			</ul>
+		<li><a href="hip.html">Hiperboličke</a></li>
+			<ul>
+				<li><a href="sh.html">Sinus hiperbolički</a></li>
+				<li><a href="ch.html">Kosinus hiperbolički</a></li>
+				<li><a href="tanh.html">Tangens hiperbolički</a></li>
+				<li><a href="ctgh.html">Kotangens hiperbolički</a></li>
+				<li><a href="ash.html">Area sinus hiperbolički</a></li>
+				<li><a href="ach.html">Area kosinus hiperbolicki</a></li>
+				<li><a href="atanh.html">Area tangens hiperbolički</a></li>
+				<li><a href="actgh.html">Area kotangens hiperbolički</a></li>
+			</ul>
+	</ul>	
+	
+	<h3>Crtanje funkcije</h3>
+	<ul>
+		<li><a href="func_explicit.html">Eksplicitno zadavanje</a></li>
+		<li><a href="func_implicit.html">Implicitno zadavanje</a></li>
+		<li><a href="func_param.html">Parametarsko zadavanje</a></li>
+	</ul>
+
+	</div>
+	
+<div id="sadrzaj" >
+
+	<h2>Crtanje parametarski zadate funkcije</h2>
+<applet name="ggbApplet" code="geogebra.GeoGebraApplet" archive="../geogebra/geogebra.jar" codebase="http://www.geogebra.org/webstart/history/3.9.339.0/unpacked/"  width="640" height="480">
+	<param name="filename" value="../applets/empty_param.ggb" />
+	<param name="java_arguments" value="-Xmx512m -Djnlp.packEnabled=true" />
+	<param name="cache_archive" value="geogebra.jar, geogebra_main.jar, geogebra_gui.jar, geogebra_cas.jar, geogebra_algos.jar, geogebra_export.jar, geogebra_javascript.jar, jlatexmath.jar, jlm_greek.jar, jlm_cyrillic.jar, geogebra_properties.jar" />
+	<param name="cache_version" value="3.2.33.1, 3.2.33.1, 3.2.33.1, 3.2.33.1, 3.2.33.1, 3.2.33.1" />
+	
+	<param name="centerimage" value="true"  />
+	<param name="framePossible" value="false" />
+	<param name="showResetIcon" value="false" />
+	<param name="showAnimationButton" value="false" />
+	<param name="enableRightClick" value="true" />
+
+	<param name="errorDialogsActive" value="true" />
+	<param name="enableLabelDrags" value="false" />
+	<param name="showMenuBar" value="false" />
+	<param name="showToolBar" value="false" />
+	<param name="showToolBarHelp" value="true" />
+	<param name="showAlgebraInput" value="false" />
+Sorry, the GeoGebra Applet could not be started. Please make sure that 
+Java 1.4.2 (or later) is installed and active in your browser (<a href="http://java.sun.com/getjava">Click here to install Java now</a>)
+</applet>
+
+	<p>
+		<form name="forma_param">
+			<p>Unesite funkciju kojom se definiše x koordinata x(t)= <input type="text" name="x_t" size="20" value ="2cos(x)"></p>
+			<p>Unesite funkciju kojom se definiše y koordinata y(t)= <input type="text" name="y_t" size="20" value ="2sin(x)"></p>
+			<center><input type="button" name="Postavi" value="Postavi funkcije" onClick="drawFunctionParam()"></center>
+		</form>
+	</p>
+	
+	<h6><u>Napomena:</u> Zbog ograničenja GeoGebre molimo unesite parametarske funkcije kao funkcije od x, x(x) i y(x)</h6>
+</div>
+
+<div id="desni_meni">
+		<h3><a href="help.html">Pomoć</h3>	
+	</div>
+</div>
+
+</div>
+
+<div id="podnozje" > 
+	<p> &copy; Milan Branković, Napravljeno pomoću alata <a href="http://www.geogebra.org/" target="_blank">GeoGebra</a>
+	</p> 
+</div>
+
+</body>
+</html>
